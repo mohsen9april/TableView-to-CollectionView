@@ -30,14 +30,11 @@ class CategoriesVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? CategoryCell{
-            let category = DataService.intance.getCaregories()[indexPath.row]
-            cell.categoryImage.image = UIImage(named: category.imageName)
-            cell.categoryTitle.text = category.title
-            return cell
-        } else {
-            return CategoryCell()
-        }
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? CategoryCell
+            cell?.categoryImage.image = UIImage(named: DataService.intance.getCaregories()[indexPath.row].imageName)
+            cell?.categoryTitle.text = DataService.intance.getCaregories()[indexPath.row].title
+            return cell!
+        
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
