@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		ED75DA0F2282B5DB00332381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75DA0E2282B5DB00332381 /* AppDelegate.swift */; };
-		ED75DA112282B5DB00332381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75DA102282B5DB00332381 /* ViewController.swift */; };
+		ED75DA112282B5DB00332381 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75DA102282B5DB00332381 /* CategoriesVC.swift */; };
 		ED75DA142282B5DB00332381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75DA122282B5DB00332381 /* Main.storyboard */; };
 		ED75DA162282B5DC00332381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75DA152282B5DC00332381 /* Assets.xcassets */; };
 		ED75DA192282B5DC00332381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75DA172282B5DC00332381 /* LaunchScreen.storyboard */; };
+		ED75DA212282B9AD00332381 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75DA202282B9AD00332381 /* CategoryCell.swift */; };
+		ED75DA232282BA4500332381 /* Category .swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75DA222282BA4500332381 /* Category .swift */; };
+		ED75DA252282BB2200332381 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75DA242282BB2200332381 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED75DA0B2282B5DB00332381 /* TableView to CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView to CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED75DA0E2282B5DB00332381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED75DA102282B5DB00332381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED75DA102282B5DB00332381 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		ED75DA132282B5DB00332381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED75DA152282B5DC00332381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED75DA182282B5DC00332381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED75DA1A2282B5DC00332381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED75DA202282B9AD00332381 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		ED75DA222282BA4500332381 /* Category .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category .swift"; sourceTree = "<group>"; };
+		ED75DA242282BB2200332381 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				ED75DA0E2282B5DB00332381 /* AppDelegate.swift */,
-				ED75DA102282B5DB00332381 /* ViewController.swift */,
+				ED75DA102282B5DB00332381 /* CategoriesVC.swift */,
+				ED75DA202282B9AD00332381 /* CategoryCell.swift */,
 				ED75DA122282B5DB00332381 /* Main.storyboard */,
 				ED75DA152282B5DC00332381 /* Assets.xcassets */,
 				ED75DA172282B5DC00332381 /* LaunchScreen.storyboard */,
 				ED75DA1A2282B5DC00332381 /* Info.plist */,
+				ED75DA222282BA4500332381 /* Category .swift */,
+				ED75DA242282BB2200332381 /* DataService.swift */,
 			);
 			path = "TableView to CollectionView";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED75DA112282B5DB00332381 /* ViewController.swift in Sources */,
+				ED75DA232282BA4500332381 /* Category .swift in Sources */,
+				ED75DA112282B5DB00332381 /* CategoriesVC.swift in Sources */,
 				ED75DA0F2282B5DB00332381 /* AppDelegate.swift in Sources */,
+				ED75DA212282B9AD00332381 /* CategoryCell.swift in Sources */,
+				ED75DA252282BB2200332381 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
